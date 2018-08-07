@@ -1,24 +1,21 @@
 $TTL 3600
-@	IN SOA dns105.ovh.net. tech.ovh.net. (2018080704 86400 3600 3600000 300)
-                          IN NS     dns105.ovh.net.
-                          IN NS     ns105.ovh.net.
-                          IN MX 1   redirect.ovh.net.
-                          IN A      51.254.119.201
-                          IN TXT    "1|www.bremmekamp.com"
-                      600 IN TXT    "v=spf1 a mx include:mx.ovh.com include:_spf.google.com ~all"
-_autodiscover._tcp        IN SRV    0 0 443 mailconfig.ovh.net.
-_dmarc                    IN TXT    "v=DMARC1; p=none"
-_imaps._tcp               IN SRV    0 0 993 ssl0.ovh.net.
-_submission._tcp          IN SRV    0 0 465 ssl0.ovh.net.
-bernhard.at           600 IN TXT    "bernhard.bremmekamp@gmail.com"
-bjoern.at             600 IN TXT    "b.bremmekamp@web.de"
-bozforum                  IN CNAME  bremmekamp.com.
-gudrun.at             600 IN TXT    "gudrun.bremmekamp@gmail.com"
-hans-joachim.at       600 IN TXT    "hansjoachim.bremmekamp@gmail.com"
-jens.at               600 IN TXT    "jens.bremmekamp@gmail.com"
-nadezhda.at           600 IN TXT    "nad.stoyanova@gmail.com"
-nadia.at              600 IN TXT    "nad.stoyanova@gmail.com"
-www                       IN MX 1   redirect.ovh.net.
-www                       IN A      51.254.119.201
-www                       IN TXT    "3|welcome"
-www                       IN TXT    "l|de"
+@	IN SOA dns105.ovh.net. tech.ovh.net. (2018080705 86400 3600 3600000 300)
+                       IN NS     dns105.ovh.net.
+                       IN NS     ns105.ovh.net.
+                       IN MX 1   redirect.ovh.net.
+                       IN A      51.254.119.201
+                       IN TXT    "1|www.bremmekamp.com"
+                   600 IN TXT    "v=spf1 a mx include:mx.ovh.com include:_spf.google.com ~all"
+_dmarc                 IN TXT    "v=DMARC1; p=none"
+bernhard.at        600 IN TXT    "bernhard.bremmekamp@gmail.com"
+bjoern.at          600 IN TXT    "b.bremmekamp@web.de"
+bozforum               IN CNAME  bremmekamp.com.
+gudrun.at          600 IN TXT    "gudrun.bremmekamp@gmail.com"
+hans-joachim.at    600 IN TXT    "hansjoachim.bremmekamp@gmail.com"
+jens.at            600 IN TXT    "jens.bremmekamp@gmail.com"
+nadezhda.at        600 IN TXT    "nad.stoyanova@gmail.com"
+nadia.at           600 IN TXT    "nad.stoyanova@gmail.com"
+www                    IN MX 1   redirect.ovh.net.
+www                    IN A      51.254.119.201
+www                    IN TXT    "3|welcome"
+www                    IN TXT    "l|de"
