@@ -15,4 +15,4 @@ hans-joachim.at    600 IN TXT    "hansjoachim.bremmekamp@gmail.com"
 jens.at            600 IN TXT    "jens.bremmekamp@gmail.com"
 nadezhda.at        600 IN TXT    "nad.stoyanova@gmail.com"
 nadia.at           600 IN TXT    "nad.stoyanova@gmail.com"
-www                    IN CNAME  @
+www                    IN CNAME  bremmekamp.com.
