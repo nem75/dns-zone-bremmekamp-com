@@ -9,13 +9,10 @@ $TTL 3600
 _dmarc                 IN TXT    "v=DMARC1; p=none"
 bernhard.at        600 IN TXT    "bernhard.bremmekamp@gmail.com"
 bjoern.at          600 IN TXT    "b.bremmekamp@web.de"
-bozforum               IN CNAME  bremmekamp.com.
+bozforum               IN A      51.254.119.201
 gudrun.at          600 IN TXT    "gudrun.bremmekamp@gmail.com"
 hans-joachim.at    600 IN TXT    "hansjoachim.bremmekamp@gmail.com"
 jens.at            600 IN TXT    "jens.bremmekamp@gmail.com"
 nadezhda.at        600 IN TXT    "nad.stoyanova@gmail.com"
 nadia.at           600 IN TXT    "nad.stoyanova@gmail.com"
-www                    IN MX 1   redirect.ovh.net.
-www                    IN A      51.254.119.201
-www                    IN TXT    "3|welcome"
-www                    IN TXT    "l|de"
+www                    IN CNAME  bremmekamp.com.
