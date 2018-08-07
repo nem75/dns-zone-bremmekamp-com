@@ -1,5 +1,5 @@
 $TTL 3600
-@	IN SOA dns105.ovh.net. tech.ovh.net. (2017061301 86400 3600 3600000 300)
+@	IN SOA dns105.ovh.net. tech.ovh.net. (2018080704 86400 3600 3600000 300)
                           IN NS     dns105.ovh.net.
                           IN NS     ns105.ovh.net.
                           IN MX 1   redirect.ovh.net.
@@ -10,21 +10,14 @@ _autodiscover._tcp        IN SRV    0 0 443 mailconfig.ovh.net.
 _dmarc                    IN TXT    "v=DMARC1; p=none"
 _imaps._tcp               IN SRV    0 0 993 ssl0.ovh.net.
 _submission._tcp          IN SRV    0 0 465 ssl0.ovh.net.
-autoconfig                IN CNAME  mailconfig.ovh.net.
-autodiscover              IN CNAME  mailconfig.ovh.net.
 bernhard.at           600 IN TXT    "bernhard.bremmekamp@gmail.com"
 bjoern.at             600 IN TXT    "b.bremmekamp@web.de"
 bozforum                  IN CNAME  bremmekamp.com.
-ftp                       IN CNAME  bremmekamp.com.
 gudrun.at             600 IN TXT    "gudrun.bremmekamp@gmail.com"
 hans-joachim.at       600 IN TXT    "hansjoachim.bremmekamp@gmail.com"
-imap                      IN CNAME  ssl0.ovh.net.
 jens.at               600 IN TXT    "jens.bremmekamp@gmail.com"
-mail                      IN CNAME  ssl0.ovh.net.
 nadezhda.at           600 IN TXT    "nad.stoyanova@gmail.com"
 nadia.at              600 IN TXT    "nad.stoyanova@gmail.com"
-pop3                      IN CNAME  ssl0.ovh.net.
-smtp                      IN CNAME  ssl0.ovh.net.
 www                       IN MX 1   redirect.ovh.net.
 www                       IN A      51.254.119.201
 www                       IN TXT    "3|welcome"
